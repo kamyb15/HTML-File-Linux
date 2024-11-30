@@ -1,1 +1,169 @@
-<h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Guide</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-image: url('https://t4.ftcdn.net/jpg/02/73/99/31/360_F_273993104_viF1Ij9BSAXDsWs6DcSfd7abLM9RkwxW.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        header h1 {
+            color: #2e6a38; /* Dark forest green */
+            font-size: 3em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: block;
+            transition: background-color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #2e6a38; /* Dark forest green hover effect */
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            margin: 20px 0;
+            background-color: #e8f5e9;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Ensures center alignment */
+            justify-content: center;
+        }
+        section h2 {
+            font-size: 2em;
+            color: #2e6a38;
+            margin-bottom: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 10px;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+        img:hover {
+            transform: scale(1.05);
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        #backToTopBtn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #2e6a38;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 18px;
+        }
+        #backToTopBtn:hover {
+            background-color: #235c29;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Travel Guide</h1>
+        <p>Your gateway to exploring amazing destinations</p>
+    </header>
+    <nav>
+        <a href="#destinations">Destinations</a>
+        <a href="#tips">Travel Tips</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+    <main>
+        <section id="destinations">
+            <h2>Top Destinations</h2>
+            <p>Explore these amazing places:</p>
+            <div>
+                <img src="https://independenttravelcats.com/wp-content/uploads/2019/01/Eiffel-Tower-from-Hop-on-Hop-off-Bus.jpg" alt="Paris Eiffel Tower" width="400">
+                <img src="https://media.cntraveler.com/photos/5abcfa8ddd7ac7645af41ec8/4:3/w_1600%2Ch_1200%2Cc_limit/GettyImages-625870378.jpg" alt="Bali Beach" width="400">
+                <img src="https://www.travelandleisure.com/thmb/VscfMXHNO6uBpaX2cuIW1q2ZtA8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/tokyo-japan-TOKYOTG0621-52012ff551dc46c4a87ac8e3151307a4.jpg" alt="Tokyo Skyline" width="400">
+            </div>
+        </section>
+        <section id="tips">
+            <h2>Travel Tips</h2>
+            <p>Pack light, stay hydrated, and always keep your travel documents safe.</p>
+            <img src="https://static.vecteezy.com/system/resources/previews/014/310/351/non_2x/traveling-safety-tips-poster-free-vector.jpg" alt="Travel Tips Illustration" width="500">
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email us at: <a href="mailto:travelguide@project.com">travelguide@example.com</a></p>
+            <button onclick="location.href='mailto:travelguide@example.com'">Email Us</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Travel Guide. All rights reserved.</p>
+        <p>Follow us on:</p>
+        <a href="https://www.facebook.com" target="_blank">Facebook</a> |
+        <a href="https://www.instagram.com" target="_blank">Instagram</a> |
+        <a href="https://www.twitter.com" target="_blank">Twitter</a>
+    </footer>
+    <button id="backToTopBtn" onclick="window.scrollTo(0, 0)">↑</button>
+</body>
+</html>
