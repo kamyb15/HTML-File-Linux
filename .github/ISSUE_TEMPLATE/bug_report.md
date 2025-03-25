@@ -1,23 +1,26 @@
-### Description
-- A clear and concise description of the bug.
+---
+name: Bug report
+about: Create a report to help us improve
+title: 'Bug: [brief description of the issue]'
+labels: bug
+assignees: ''
+---
 
-### Steps to Reproduce
-1. Step one
-2. Step two
-3. Step three
+**Describe the bug**
+A clear and concise description of what the bug is.
 
-### Expected Behavior
-- What you expected to happen.
+**To Reproduce**
+Steps to reproduce the behavior:
+1. Go to '...'
+2. Click on '....'
+3. Scroll down to '....'
+4. See error
 
-### Actual Behavior
-- What actually happened.
+**Expected behavior**
 
-### Screenshots
-- If applicable, add screenshots to help explain your problem.
+**Screenshots**
 
-### Environment
-- Operating System (e.g., macOS, Windows, Linux)
-- Browser (e.g., Chrome, Firefox, Safari)
-
-### Additional Information
-- Any other context or information that might be helpful for the bug report.
+**Desktop (please complete the following information):**
+- OS: [e.g. Windows 10, macOS 11.2]
+- Browser [e.g. chrome, safari]
+- Version [e.g. 22]
