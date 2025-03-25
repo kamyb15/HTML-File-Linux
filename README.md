@@ -48,6 +48,10 @@ The website is designed with responsive HTML, CSS, and media queries to ensure i
 
 All project documentation, bug reports, and comments are accepted in English.
 
+## Collaborative Review
+
+This project uses regular commits and pull requests for collaborative review. The repository includes interim versions, allowing team members to review progress and contribute to the development process.
+
 
 ## License
 
