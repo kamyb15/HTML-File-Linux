@@ -62,6 +62,16 @@ If you encounter any bugs or issues while using the project, please report them 
 
 We appreciate your feedback and will work to address any bugs as soon as possible!
 
+## Bug Report Archive
+
+All submitted bug reports and their responses are publicly available in our GitHub [Issues Archive](https://github.com/kamyb15/HTML-File-Linux/issues).
+
+You can use this page to:
+- View previously reported issues.
+- Track ongoing work on bug fixes or enhancements.
+- Search for solutions to known issues.
+
+We encourage users to search the archive before submitting a new issue to see if the problem has already been reported.
 
 ## Language
 
