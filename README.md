@@ -52,6 +52,9 @@ All project documentation, bug reports, and comments are accepted in English.
 
 This project uses regular commits and pull requests for collaborative review. The repository includes interim versions, allowing team members to review progress and contribute to the development process.
 
+## Version
+- Current Version: v1.0.0
+
 
 ## License
 
