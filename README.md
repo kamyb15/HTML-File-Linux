@@ -49,6 +49,18 @@ The website is designed with responsive HTML, CSS, and media queries to ensure i
 For detailed release notes, please visit the [Releases page](https://github.com/kamyb15/HTML-File_Linux/releases).
 
 - **v1.0.0**: Initial release with core functionality.
+## Bug Reports
+
+If you encounter any bugs or issues while using the project, please report them using our [GitHub issue tracker](https://github.com/kamyb15/your-repository/issues).
+
+### How to Report a Bug:
+1. Go to the [Issues page](https://github.com/kamyb15/your-repository/issues).
+2. Click on **New Issue**.
+3. Choose the **Bug report** template.
+4. Fill out the form with a detailed description of the issue, including the steps to reproduce the bug, expected behavior, and any screenshots if possible.
+5. Submit the issue for review.
+
+We appreciate your feedback and will work to address any bugs as soon as possible!
 
 
 ## Language
