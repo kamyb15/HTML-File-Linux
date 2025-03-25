@@ -15,4 +15,7 @@ The Travel Guide website helps users explore popular travel destinations, offeri
 
 ## License
 
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
+
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/kamyb15/HTML-File-Linux/badge)](https://securityscorecards.dev/viewer/?uri=github.com/kamyb15/HTML-File-Linux)
