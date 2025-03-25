@@ -44,6 +44,13 @@ This website has the following interactive elements that users can engage with:
 ### Visual Interface:
 The website is designed with responsive HTML, CSS, and media queries to ensure it works well across different screen sizes. Users can view high-quality images of travel destinations and easily navigate through the sections via a sticky navigation bar.
 
+## Releases
+
+For detailed release notes, please visit the [Releases page](https://github.com/kamyb15/HTML-File_Linux/releases).
+
+- **v1.0.0**: Initial release with core functionality.
+
+
 ## Language
 
 All project documentation, bug reports, and comments are accepted in English.
